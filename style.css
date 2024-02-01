@@ -32,6 +32,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     li{
         list-style: none;
         padding: 20px 20px;
@@ -73,4 +74,46 @@ body {
     border-radius: 3px;
     border: 1px solid rgba(0, 0, 0, 0);
   }
+}
+
+#hero2{
+  padding: 100px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .img1{
+    margin-left: 200px;
+    img{
+      width: 432.66px;
+    height: 310.65px;
+    }
+  }
+  .left{
+    padding-left: 7%;
+    margin-right: 10%;
+    h2{
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+    }
+    p{
+      margin-right: 10%;
+      margin-bottom: 25px;
+      line-height: 30px;
+    }
+    .extras{
+      display: flex;
+      margin-bottom: 15px;
+      ul{
+        padding: 13px 30px;
+        line-height: 33px;
+      }
+    }
+    img{
+      width: 528px;
+      height: 29.74px;
+    }
+   
+  }
+  
 }
